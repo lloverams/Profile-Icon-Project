@@ -1,0 +1,44 @@
+<html>
+<div class="container">
+  <div class="profile">
+    <div class="profile__status profile__status--active"></div>
+  </div>
+  
+  <img src="https://cloudinary-a.akamaihd.net/ufn/image/upload/u7cdzxvxu69pmubmtltc.jpg"id="circle">
+</div>
+
+</html>
+
+<style>
+/*
+  In this example we will create a simple profile-icon. This is a neat
+  UI widget that will allow us to explore positioning, particularly     relative and absolute positioning.
+*/
+
+
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  background: pink;
+}
+
+/* Your CSS Here 👇 */
+#circle {
+    background: white;
+    border-radius:100%;
+    width: 200px;
+    height: 200px;
+}
+
+</style>
